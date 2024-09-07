@@ -25,7 +25,7 @@ local function onUpdate(dt)
   if not selectingVehicle then return end
 
   local raycastInfo = cameraMouseRayCast(true, raycastFlags)
-  if not raycastInfo then return end
+  if not raycastInfo or not raycastInfo.object then return end
 
   local veh = be:getPlayerVehicle(0)
   if veh then
