@@ -1,0 +1,3 @@
+{
+	"enter_veh_on_click"		: { "title":"Enter Vehicle by Clicking", 				"desc":"Enters vehicle clicked on.", 	"order": 10000, "cat":"gameplay", "ctx": "tlua", "onDown":"scripts_click__to__enter__angelo234_extension.onVehicleSelected()" },
+}

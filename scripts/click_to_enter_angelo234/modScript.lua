@@ -1,0 +1,1 @@
+registerCoreModule('scripts/click_to_enter_angelo234/extension')
