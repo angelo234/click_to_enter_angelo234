@@ -48,7 +48,12 @@ local function selectVehicle(controllerState)
   selectingVehicle = controllerState == 1
 end
 
+local function onInit()
+  setExtensionUnloadMode(M, "manual")
+end
+
 M.onUpdate = onUpdate
 M.selectVehicle = selectVehicle
+M.onInit = onInit
 
 return M
